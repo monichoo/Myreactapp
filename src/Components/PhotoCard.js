@@ -19,8 +19,13 @@ function PhotoCard(props){
                     <Link to={`/photos/${props.photo.id}`}>
                         {props.photo.title}
                     </Link>
-                    {props.photo.id}
                 </h1>
+                <Link 
+                    to={`/photos/${props.photo.id}`}
+                    className="bg-blue-500 text-white p-2 flex justify-center"
+                >
+                    View
+                </Link>
             </div>
         </div>
     )
