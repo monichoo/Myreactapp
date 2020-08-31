@@ -17,7 +17,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "tailwindcss": "^1.7.2",
-    "yarn": "^1.22.4"
+    "yarn": "^1.22.5"
   },
   "scripts": {
     "build:css": "postcss src/index.css -o src/tailwind.css",
