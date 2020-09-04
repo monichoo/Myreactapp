@@ -8,7 +8,7 @@ function Navigation(){
     return(
         <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
           <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <span className="text-xl">
+            <span className="text-xl pr-3">
               <FontAwesomeIcon icon={faCrow} />
             </span>
             <span class="font-semibold text-xl tracking-tight">Watcher</span>
@@ -22,7 +22,7 @@ function Navigation(){
             <div class="text-sm lg:flex-grow">
               <Link to="/" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Home</Link>
               <Link to="/about" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">About</Link>
-              <Link to="/photos" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Photos</Link>
+              <Link to="/form" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">Form</Link>
             </div>
           </div>
         </nav>

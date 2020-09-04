@@ -10,6 +10,7 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Home from './Views/Home'
 import About from './Views/About'
+import Form from './Views/Form'
 import Photo from './Views/Photo'
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/form">
+              <Form />
             </Route>
             <Route path="/photos/:id">
               <Photo />
