@@ -57,6 +57,7 @@ function Home(){
     return(
         <div>
             <h1 className="font-bold text-2xl">Photos</h1>
+            <p>This page is pulling data from an external api</p>
             {content}
         </div>
     )
